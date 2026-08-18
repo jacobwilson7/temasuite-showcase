@@ -3,9 +3,11 @@
 > A hospitality management platform: bookings, guests, units, rates, channel distribution and a
 > complete accounting cycle, for property managers running more than one company.
 
-**Role** — full-stack architecture, backend API, frontend, data model and operational workflows.
-**Stack** — Laravel 13 · Angular 21 · PrimeNG · Stripe · relational data layer.
-**Status** — in production, multi-company.
+**Role**
+Full-stack architecture · Backend API · Frontend · Data model · Operational workflows
+
+**Status**
+In production · Multi-company
 
 ![TemaSuite dashboard: arrivals and departures, payments, pending invoices, missing check-ins, monthly revenue and latest bookings](assets/screenshots/dashboard.webp)
 
@@ -83,10 +85,28 @@ context, and the platform is covered by automated tests with a controlled deploy
 Specific endpoints, providers, infrastructure and client identities are deliberately not
 described here.
 
-## Tech stack
+## Stack
 
-`Laravel 13` `PHP 8.3` `Angular 21` `PrimeNG` `PWA / service worker` `Stripe`
-`role-based permissions` `activity log` `Excel & PDF export` `relational database`
+**Frontend**
+Angular 21 · PrimeNG · PWA · Service worker
+
+**Backend**
+Laravel 13 · PHP 8.3
+
+**Database**
+Relational data layer · Outbox pattern · Feature flags
+
+**Integrations**
+Channel Manager · OTA APIs · iCal · Booking webhooks · OCR · Identity verification
+
+**Payments**
+Stripe
+
+**Output**
+Excel · PDF · Electronic invoicing
+
+**Security**
+Role-based permissions · Activity log
 
 ## Result
 
