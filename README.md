@@ -67,14 +67,11 @@ deployment.
 where one codebase serves several companies, this is the difference between shipping weekly and
 shipping when everyone is ready.
 
-**Accounting modelled as its own domain.** Invoicing, reconciliation, revenue recognition and
-tax are separate services with their own rules, not fields hanging off a booking. Fiscal logic
-changes on a legislative schedule that has nothing to do with the product roadmap, and this keeps
-those two clocks apart.
+**Accounting as its own domain.** Invoicing, reconciliation, revenue recognition and tax are
+separate services. Fiscal logic moves on a legislative calendar; the product roadmap does not.
 
-**Angular with a component library, on purpose.** A back office of this size is dozens of dense
-data tables and forms. A mature component library beats hand-rolled UI here, and the framework's
-opinionated structure is an advantage when the surface is this large.
+**Angular + PrimeNG.** A back office this size is dense tables and forms. A mature component
+library fits that surface.
 
 ## Security and privacy
 
