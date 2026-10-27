@@ -118,9 +118,3 @@ the repository: **97 models, 81 migrations**.
 
 The source code is maintained in a private repository: TemaSuite is a commercial SaaS product.
 This repository documents the architecture, the engineering decisions and the product work.
-
-## Links
-
-- **Interactive case study** — [francescoiaforte.vercel.app/en/projects/property-manager-saas](https://francescoiaforte.vercel.app/en/projects/property-manager-saas)
-- **Profile** — [github.com/francescoveryra-dot](https://github.com/francescoveryra-dot)
-- **Full portfolio** — [francescoiaforte.vercel.app](https://francescoiaforte.vercel.app)
